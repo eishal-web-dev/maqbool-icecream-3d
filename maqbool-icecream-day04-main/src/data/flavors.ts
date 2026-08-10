@@ -69,7 +69,7 @@ export const flavors: Flavor[] = [
     productColor: '#f7e6c8',
     productAccent: '#e8b04c',
     productShape: 'bowl',
-    image: '/cutouts/special.png',
+    image: '/cutouts-optimized/special.webp',
     ingredients: [
       { type: 'almond', position: [-2.8, 1.2, -1], rotation: [0.3, 0.5, 0.2], scale: 1, floatSpeed: 0.6, floatRange: 0.3, layer: 'front' },
       { type: 'pistachio', position: [2.6, 0.8, -0.5], rotation: [0.1, 0.8, 0.4], scale: 0.8, floatSpeed: 0.5, floatRange: 0.25, layer: 'front' },
@@ -96,7 +96,7 @@ export const flavors: Flavor[] = [
     productColor: '#e8d5b0',
     productAccent: '#9ab87a',
     productShape: 'cone',
-    image: '/cutouts/kulfi.png',
+    image: '/cutouts-optimized/kulfi.webp',
     ingredients: [
       { type: 'pistachio', position: [-2.6, 1.3, -0.8], rotation: [0.2, 0.6, 0.3], scale: 0.9, floatSpeed: 0.5, floatRange: 0.3, layer: 'front' },
       { type: 'almond', position: [2.7, 0.6, -0.3], rotation: [0.4, 0.2, 0.6], scale: 0.85, floatSpeed: 0.6, floatRange: 0.25, layer: 'front' },
@@ -123,7 +123,7 @@ export const flavors: Flavor[] = [
     productColor: '#ffb84d',
     productAccent: '#ffe066',
     productShape: 'cup',
-    image: '/cutouts/pistachio.png',
+    image: '/cutouts-optimized/pistachio.webp',
     ingredients: [
       { type: 'mangoSlice', position: [-2.7, 1.4, -0.6], rotation: [0.2, 0.3, 0.5], scale: 1, floatSpeed: 0.5, floatRange: 0.3, layer: 'front' },
       { type: 'mangoCube', position: [2.5, 0.9, -0.4], rotation: [0.4, 0.6, 0.2], scale: 0.8, floatSpeed: 0.6, floatRange: 0.25, layer: 'front' },
@@ -150,7 +150,7 @@ export const flavors: Flavor[] = [
     productColor: '#e8e0f5',
     productAccent: '#6a5ac4',
     productShape: 'tub',
-    image: '/cutouts/chocolate.png',
+    image: '/cutouts-optimized/chocolate.webp',
     ingredients: [
       { type: 'blueberry', position: [-2.5, 1.3, -0.7], rotation: [0.2, 0.5, 0.3], scale: 1, floatSpeed: 0.6, floatRange: 0.3, layer: 'front' },
       { type: 'blueberry', position: [2.6, 0.7, -0.5], rotation: [0.4, 0.2, 0.6], scale: 0.85, floatSpeed: 0.5, floatRange: 0.25, layer: 'front' },
@@ -177,7 +177,7 @@ export const flavors: Flavor[] = [
     productColor: '#f5c0c8',
     productAccent: '#e84a6a',
     productShape: 'glass',
-    image: '/cutouts/tutti-frutti.png',
+    image: '/cutouts-optimized/tutti-frutti.webp',
     ingredients: [
       { type: 'strawberry', position: [-2.6, 1.3, -0.6], rotation: [0.2, 0.4, 0.3], scale: 1, floatSpeed: 0.5, floatRange: 0.3, layer: 'front' },
       { type: 'creamDroplet', position: [2.5, 0.8, -0.4], rotation: [0, 0, 0], scale: 0.7, floatSpeed: 0.6, floatRange: 0.25, layer: 'front' },
@@ -204,7 +204,7 @@ export const flavors: Flavor[] = [
     productColor: '#4a2810',
     productAccent: '#d4955a',
     productShape: 'tub',
-    image: '/cutouts/milkshake.png',
+    image: '/cutouts-optimized/milkshake.webp',
     ingredients: [
       { type: 'chocolatePiece', position: [-2.7, 1.3, -0.6], rotation: [0.3, 0.5, 0.2], scale: 1, floatSpeed: 0.5, floatRange: 0.3, layer: 'front' },
       { type: 'crunchyFragment', position: [2.5, 0.8, -0.4], rotation: [0.4, 0.2, 0.6], scale: 0.8, floatSpeed: 0.6, floatRange: 0.25, layer: 'front' },
@@ -231,7 +231,7 @@ export const flavors: Flavor[] = [
     productColor: '#f0c8d8',
     productAccent: '#7ad4a8',
     productShape: 'glass',
-    image: '/cutouts/falooda.png',
+    image: '/cutouts-optimized/falooda.webp',
     ingredients: [
       { type: 'rosePetal', position: [-2.6, 1.3, -0.6], rotation: [0.2, 0.3, 0.4], scale: 1, floatSpeed: 0.5, floatRange: 0.3, layer: 'front' },
       { type: 'basilSeed', position: [2.5, 0.8, -0.4], rotation: [0.3, 0.5, 0.2], scale: 0.6, floatSpeed: 0.7, floatRange: 0.35, layer: 'front' },
