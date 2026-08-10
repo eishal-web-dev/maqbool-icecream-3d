@@ -204,7 +204,7 @@ export default function App() {
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ duration: 0.8 }}
-        className="absolute inset-0 z-[1] pointer-events-none"
+        className="absolute inset-0 z-0 pointer-events-none"
         style={{ background: currentFlavor.backgroundGradient }}
       />
 
