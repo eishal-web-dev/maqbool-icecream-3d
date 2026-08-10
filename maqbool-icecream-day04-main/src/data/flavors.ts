@@ -69,7 +69,7 @@ export const flavors: Flavor[] = [
     productColor: '#f7e6c8',
     productAccent: '#e8b04c',
     productShape: 'bowl',
-    image: '/cutouts-optimized/special.webp',
+    image: '/cutouts-optimized/maqbool-special.webp',
     ingredients: [
       { type: 'almond', position: [-2.8, 1.2, -1], rotation: [0.3, 0.5, 0.2], scale: 1, floatSpeed: 0.6, floatRange: 0.3, layer: 'front' },
       { type: 'pistachio', position: [2.6, 0.8, -0.5], rotation: [0.1, 0.8, 0.4], scale: 0.8, floatSpeed: 0.5, floatRange: 0.25, layer: 'front' },
