@@ -324,7 +324,7 @@ export default function SceneCanvas({ flavor, nextFlavor, isMobile, isSmallMobil
       camera={{ position: [0, 0, 6], fov: 45 }}
       gl={{ antialias: !isMobile, alpha: true, powerPreference: 'high-performance' }}
       frameloop={visible ? 'always' : 'never'}
-      style={{ position: 'absolute', inset: 0 }}
+      style={{ position: 'absolute', inset: 0, zIndex: 2 }}
     >
       <SceneContents
         flavor={flavor}
