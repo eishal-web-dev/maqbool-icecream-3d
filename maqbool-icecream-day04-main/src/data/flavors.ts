@@ -46,6 +46,7 @@ export interface Flavor {
   productColor: string;
   productAccent: string;
   productShape: 'cone' | 'cup' | 'bowl' | 'tub' | 'glass';
+  image: string;
 }
 
 export const WHATSAPP_URL =
@@ -60,14 +61,15 @@ export const flavors: Flavor[] = [
     tagline: 'Signature Creation',
     description:
       'A crown of cream, saffron and roasted nuts. The recipe that made Maqbool a Peshawar institution — rich, slow-churned and unforgettable.',
-    background: '#3a0d12',
-    backgroundGradient: 'radial-gradient(circle at 50% 40%, #5a1a22 0%, #3a0d12 55%, #1f0608 100%)',
+    background: '#766d24',
+    backgroundGradient: 'radial-gradient(circle at 50% 38%, #a69b42 0%, #766d24 58%, #4f4814 100%)',
     accent: '#e8b04c',
     textColor: '#f5d99a',
     textShadow: 'rgba(232,176,76,0.25)',
     productColor: '#f7e6c8',
     productAccent: '#e8b04c',
     productShape: 'bowl',
+    image: 'https://www.maqboolicecream.com/assets/special-DzZmTpqd.jpg',
     ingredients: [
       { type: 'almond', position: [-2.8, 1.2, -1], rotation: [0.3, 0.5, 0.2], scale: 1, floatSpeed: 0.6, floatRange: 0.3, layer: 'front' },
       { type: 'pistachio', position: [2.6, 0.8, -0.5], rotation: [0.1, 0.8, 0.4], scale: 0.8, floatSpeed: 0.5, floatRange: 0.25, layer: 'front' },
@@ -86,14 +88,15 @@ export const flavors: Flavor[] = [
     tagline: 'Slow-Cooked Tradition',
     description:
       'Slow-cooked milk thickened to velvet, layered with roasted almonds and green cardamom. A kulfi that tastes like home and festival nights.',
-    background: '#1d3a1d',
-    backgroundGradient: 'radial-gradient(circle at 50% 40%, #2d5a2d 0%, #1d3a1d 55%, #0d1f0d 100%)',
+    background: '#ad642f',
+    backgroundGradient: 'radial-gradient(circle at 50% 38%, #d8995f 0%, #ad642f 58%, #713918 100%)',
     accent: '#b8d4a8',
     textColor: '#d4e8c4',
     textShadow: 'rgba(184,212,168,0.25)',
     productColor: '#e8d5b0',
     productAccent: '#9ab87a',
     productShape: 'cone',
+    image: 'https://www.maqboolicecream.com/assets/kulfi-BglSVYj1.jpg',
     ingredients: [
       { type: 'pistachio', position: [-2.6, 1.3, -0.8], rotation: [0.2, 0.6, 0.3], scale: 0.9, floatSpeed: 0.5, floatRange: 0.3, layer: 'front' },
       { type: 'almond', position: [2.7, 0.6, -0.3], rotation: [0.4, 0.2, 0.6], scale: 0.85, floatSpeed: 0.6, floatRange: 0.25, layer: 'front' },
@@ -107,19 +110,20 @@ export const flavors: Flavor[] = [
   {
     id: 'mango',
     number: '03',
-    name: 'Mango',
-    shortName: 'MANGO',
-    tagline: 'Real Fruit, Real Summer',
+    name: 'Pistachio',
+    shortName: 'PISTACHIO',
+    tagline: 'Roasted & Creamy',
     description:
-      'Sindh-grown mango pulp folded into fresh cream. Sun-bright, fiber-free and bursting with the taste of Pakistani summer in every scoop.',
-    background: '#b8420a',
-    backgroundGradient: 'radial-gradient(circle at 50% 40%, #e8651a 0%, #b8420a 55%, #6d2604 100%)',
+      'Creamy pistachio ice cream finished with roasted nuts — smooth, fragrant and unmistakably Maqbool.',
+    background: '#397343',
+    backgroundGradient: 'radial-gradient(circle at 50% 38%, #69a85f 0%, #397343 58%, #1c4729 100%)',
     accent: '#ffe066',
     textColor: '#fff0a8',
     textShadow: 'rgba(255,224,102,0.3)',
     productColor: '#ffb84d',
     productAccent: '#ffe066',
     productShape: 'cup',
+    image: 'https://www.maqboolicecream.com/assets/pista-CQOKROC4.jpg',
     ingredients: [
       { type: 'mangoSlice', position: [-2.7, 1.4, -0.6], rotation: [0.2, 0.3, 0.5], scale: 1, floatSpeed: 0.5, floatRange: 0.3, layer: 'front' },
       { type: 'mangoCube', position: [2.5, 0.9, -0.4], rotation: [0.4, 0.6, 0.2], scale: 0.8, floatSpeed: 0.6, floatRange: 0.25, layer: 'front' },
@@ -133,19 +137,20 @@ export const flavors: Flavor[] = [
   {
     id: 'blueberry',
     number: '04',
-    name: 'Blueberry',
-    shortName: 'BLUEBERRY',
-    tagline: 'Berry Swirl',
+    name: 'Chocolate Sundae',
+    shortName: 'CHOCOLATE',
+    tagline: 'Dark & Decadent',
     description:
-      'Wild blueberry ripple through silky cream. Deep, jammy and just tart enough to make each spoonful taste like a cool evening breeze.',
-    background: '#1a1342',
-    backgroundGradient: 'radial-gradient(circle at 50% 40%, #2d2470 0%, #1a1342 55%, #0a0820 100%)',
+      'Cold creamy scoops covered in glossy chocolate sauce — rich, dramatic and made for serious chocolate lovers.',
+    background: '#51311d',
+    backgroundGradient: 'radial-gradient(circle at 50% 38%, #8b5733 0%, #51311d 58%, #2e190e 100%)',
     accent: '#a8b8e8',
     textColor: '#c8d4f8',
     textShadow: 'rgba(168,184,232,0.3)',
     productColor: '#e8e0f5',
     productAccent: '#6a5ac4',
     productShape: 'tub',
+    image: 'https://www.maqboolicecream.com/assets/chocolate-D4V0lfYZ.jpg',
     ingredients: [
       { type: 'blueberry', position: [-2.5, 1.3, -0.7], rotation: [0.2, 0.5, 0.3], scale: 1, floatSpeed: 0.6, floatRange: 0.3, layer: 'front' },
       { type: 'blueberry', position: [2.6, 0.7, -0.5], rotation: [0.4, 0.2, 0.6], scale: 0.85, floatSpeed: 0.5, floatRange: 0.25, layer: 'front' },
@@ -159,11 +164,11 @@ export const flavors: Flavor[] = [
   {
     id: 'strawberry-cheesecake',
     number: '05',
-    name: 'Strawberry Cheesecake',
-    shortName: 'STRAWBERRY',
-    tagline: 'Dessert In A Scoop',
+    name: 'Tutti Frutti',
+    shortName: 'TUTTI FRUTTI',
+    tagline: 'A Scoop Full Of Colour',
     description:
-      'Cream-cheese base rippled with strawberry compote and golden biscuit crumbs. A whole cheesecake experience, frozen into one scoop.',
+      'A joyful mix of colourful scoops and candied fruit — bright, playful and made for sharing.',
     background: '#8a1c3a',
     backgroundGradient: 'radial-gradient(circle at 50% 40%, #c4284f 0%, #8a1c3a 55%, #4a0e1f 100%)',
     accent: '#ffc4d4',
@@ -172,6 +177,7 @@ export const flavors: Flavor[] = [
     productColor: '#f5c0c8',
     productAccent: '#e84a6a',
     productShape: 'glass',
+    image: 'https://www.maqboolicecream.com/assets/tuttifrutti-BJAcFCtG.jpg',
     ingredients: [
       { type: 'strawberry', position: [-2.6, 1.3, -0.6], rotation: [0.2, 0.4, 0.3], scale: 1, floatSpeed: 0.5, floatRange: 0.3, layer: 'front' },
       { type: 'creamDroplet', position: [2.5, 0.8, -0.4], rotation: [0, 0, 0], scale: 0.7, floatSpeed: 0.6, floatRange: 0.25, layer: 'front' },
@@ -185,11 +191,11 @@ export const flavors: Flavor[] = [
   {
     id: 'chocolate-crunch',
     number: '06',
-    name: 'Chocolate Crunch',
-    shortName: 'CHOCOLATE',
-    tagline: 'Dark & Decadent',
+    name: 'Chocolate Milkshake',
+    shortName: 'MILKSHAKE',
+    tagline: 'Thick, Cold & Decadent',
     description:
-      'Belgian-style dark chocolate with caramelized crunch pieces. Bitter, sweet and crackling with texture — for the serious chocolate lover.',
+      'A tall, thick chocolate shake finished with cream and a deep chocolate drizzle.',
     background: '#1e1208',
     backgroundGradient: 'radial-gradient(circle at 50% 40%, #3a2410 0%, #1e1208 55%, #0a0604 100%)',
     accent: '#d4955a',
@@ -198,6 +204,7 @@ export const flavors: Flavor[] = [
     productColor: '#4a2810',
     productAccent: '#d4955a',
     productShape: 'tub',
+    image: 'https://www.maqboolicecream.com/assets/milkshake-CCcww9gT.jpg',
     ingredients: [
       { type: 'chocolatePiece', position: [-2.7, 1.3, -0.6], rotation: [0.3, 0.5, 0.2], scale: 1, floatSpeed: 0.5, floatRange: 0.3, layer: 'front' },
       { type: 'crunchyFragment', position: [2.5, 0.8, -0.4], rotation: [0.4, 0.2, 0.6], scale: 0.8, floatSpeed: 0.6, floatRange: 0.25, layer: 'front' },
@@ -224,6 +231,7 @@ export const flavors: Flavor[] = [
     productColor: '#f0c8d8',
     productAccent: '#7ad4a8',
     productShape: 'glass',
+    image: 'https://www.maqboolicecream.com/assets/falooda-CTMbhP76.jpg',
     ingredients: [
       { type: 'rosePetal', position: [-2.6, 1.3, -0.6], rotation: [0.2, 0.3, 0.4], scale: 1, floatSpeed: 0.5, floatRange: 0.3, layer: 'front' },
       { type: 'basilSeed', position: [2.5, 0.8, -0.4], rotation: [0.3, 0.5, 0.2], scale: 0.6, floatSpeed: 0.7, floatRange: 0.35, layer: 'front' },
