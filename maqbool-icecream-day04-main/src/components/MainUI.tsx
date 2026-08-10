@@ -59,6 +59,9 @@ export default function MainUI({
               alt={`${flavor.name} by Maqbool Ice Cream`}
               className="product-photo"
               draggable={false}
+              loading="eager"
+              decoding="async"
+              fetchPriority="high"
               animate={isMobile ? undefined : { x: [0, 7, 0], y: [0, -9, 0], scale: [1.02, 1.055, 1.02] }}
               transition={{ duration: 6, repeat: Infinity, ease: 'easeInOut' }}
             />
