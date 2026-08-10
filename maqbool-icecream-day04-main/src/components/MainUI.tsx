@@ -52,7 +52,7 @@ export default function MainUI({
             exit={{ opacity: 0, x: -300, y: 110, rotate: -16, scale: 1.12 }}
             transition={{ duration: 1.05, ease }}
             className="product-photo-shell"
-            style={{ boxShadow: `0 38px 100px ${flavor.background}99` }}
+            style={{ filter: `drop-shadow(0 38px 36px ${flavor.background}99)` }}
           >
             <motion.img
               src={flavor.image}
@@ -62,10 +62,6 @@ export default function MainUI({
               animate={isMobile ? undefined : { x: [0, 7, 0], y: [0, -9, 0], scale: [1.02, 1.055, 1.02] }}
               transition={{ duration: 6, repeat: Infinity, ease: 'easeInOut' }}
             />
-            <div className="product-photo-gloss" />
-            <div className="absolute left-5 top-5 rounded-full bg-white/90 px-3 py-1 text-[10px] font-bold uppercase tracking-[.18em] text-black">
-              Maqbool original
-            </div>
           </motion.div>
         </AnimatePresence>
       </div>
